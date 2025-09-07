@@ -1,47 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charity: Water - End the Water Crisis</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #fdfdfd;
+    }
+
+    header {
+      padding: 1rem 2rem;
+      background: #fff;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      align-items: center;
+    }
+
+    header img {
+      height: 30px;
+      margin-right: 10px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .content {
+      flex: 1 1 400px;
+      background: #ffe6d2;
+      border-radius: 12px;
+      padding: 2rem;
+      margin: 1rem;
+      max-width: 500px;
+    }
+
+    .content h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #222;
+    }
+
+    .content p {
+      margin-bottom: 1.5rem;
+      font-size: 1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #ffcc00;
+      color: #333;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    .btn:hover {
+      background: #ffb700;
+    }
+
+    .note {
+      font-size: 0.9rem;
+      color: #444;
+    }
+
+    .hero-image {
+      flex: 1 1 300px;
+      margin: 1rem;
+    }
+
+    .hero-image img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .content, .hero-image {
+        max-width: 100%;
+      }
+    }
+  </style>
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
+  <header>
+    <!-- Placeholder logo (replace with your actual logo file later) -->
+    <img src="img/cw_logo-2.png" alt="Charity: Water Logo">
+    <h2></h2>
+  </header>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
-
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
-        </div>
-    </section>
-
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
-    </section>
+  <section class="container">
+    <div class="content">
+      <h1>Be the Generation That Ends the Water Crisis</h1>
+      <p>Hope is stronger than scarcity. Take action to help the next generation by ensuring every community has safe, clean water.</p>
+    <a href="#" class="btn">Donate Now</a>
+      <p class="note">Monthly Or One Time Donation Options To Continue Our Mission</p>
+    </div>
+    <div class="hero-image">
+      <!-- Updated hero image -->
+    <!-- Image of a child holding a glass of water -->
+    <img src="img/Madagascar_2019_CG-2720.jpg" alt="Child holding a glass of water" class="main-img">
+    </div>
+  </section>
 </body>
 </html>

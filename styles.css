@@ -177,6 +177,26 @@ section {
     width: 90%;    /* Make image take up most of the width */
     max-width: 220px;
   }
+  /* Mobile layout: show image above text */
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-image {
+    order: -1; /* Move image above text */
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .hero-content {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 /* This media query applies styles when the screen is wider than 600px (like on tablets and computers) */
